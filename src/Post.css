@@ -1,0 +1,197 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-width: 2px;
+    border-color: lightgray;
+    border-radius: 20px;
+    width: 75vw;
+    max-height: 20em;
+    margin: 1em;
+  }
+
+  .Post-header {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+  }
+  
+  .user-photo {
+    height: 80%;
+    margin: .4em;
+    border: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: #dddddd;
+    padding: .1em;
+  }
+
+  .user-info {
+    height: 100%;
+    margin-left: 3%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .user-name {
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  
+  .user-bio {
+    padding-top: 5%;
+    margin: 0px;
+    font-size: 0.6em;
+    color: lightslategray;
+  }
+
+  .tag {
+    height: 1.5em;
+    width: 8em;
+    margin-left: auto;
+    margin-right: 3vmin;
+    background-color: lightcoral;
+    border-radius: 25px;
+    font-size: 0.6em;
+    color: white;
+    padding-top: 0.3em;
+  }
+
+  .project-info {
+    margin: 4vmin;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-name {
+    font-weight: bold;
+    margin-bottom: 0.2em;
+  }
+
+  .project-description {
+    text-align: start;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+
+  .project-details {
+    width: 89%;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #aaaaaa;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-details-body {
+    display: flex;
+    align-items: center;
+    margin: .2em;
+  }
+
+  .project-image {
+    height: 100px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: .1em;
+  }
+
+  .pledge-data {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: .6em;
+    color: grey;
+    line-height: 2em;
+  }
+
+  .pledge-amount {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: lightskyblue;
+
+  }
+
+  .pledge-count {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .pledge-button {
+    height: 1.5em;
+    width: 7em;
+    margin-left: auto;
+    margin-right: 1em;
+    border: solid;
+    border-width: 1px;
+    border-color: lightskyblue;
+    border-radius: 25px;
+    color: lightskyblue;
+    font-size: .6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-details-footer {
+    height: 4em;
+    width: 100%;
+    background-color: #eeeeee;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    font-size: .5em;
+    display: flex;
+    align-items: center;
+    color: #777777;
+  }
+
+  .footer-text {
+    margin-left: 2em;
+  }
+
+  .claim-button {
+    margin-left: auto;
+    height: 100%;
+    width: 13em;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .footer {
+    margin-top: auto;
+    height: 4em;
+    width: 100%;
+    background-color: #eeeeee;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    font-size: .5em;
+    display: flex;
+    align-items: center;
+    color: #777777;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+  }
+
+  .footer-dots {
+    margin-left: auto;
+    margin-right: 1em;
+    font-size: 2em;
+  }
