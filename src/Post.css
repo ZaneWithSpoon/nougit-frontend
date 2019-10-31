@@ -7,11 +7,13 @@
     border-color: lightgray;
     border-radius: 20px;
     width: 75vw;
-    max-height: 20em;
+    max-height: 22em;
+    min-height: 21em;
     margin: 1em;
   }
 
   .Post-header {
+    padding-top: .5em;
     height: 15%;
     width: 100%;
     display: flex;
@@ -22,8 +24,8 @@
   }
   
   .user-photo {
-    height: 80%;
-    margin: .4em;
+    height: 3em;
+    margin-left: .4em;
     border: solid;
     border-width: 1px;
     border-radius: 50%;
@@ -33,8 +35,8 @@
 
   .user-info {
     height: 100%;
-    margin-left: 3%;
-    padding-top: 5%;
+    margin-left: 1em;
+    padding-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
